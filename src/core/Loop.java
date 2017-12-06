@@ -22,7 +22,7 @@ public class Loop
       {
           System.out.println(k);
           k++;
-      }while(k<10);
+      }while(k<10);    //In do-while loop 1st statement is executed, then checking.
         
     }
     

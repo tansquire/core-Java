@@ -2,7 +2,7 @@
 package core;
 
 
-public class Temp 
+public class ASCII_List 
 {
     public static void main(String[] args) 
     {
