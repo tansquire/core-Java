@@ -5,7 +5,7 @@ public class Polymorphism_Method_Overriding
 {
     public static void main(String[] args) 
     {
-        Overload obj=new Overload();
+        Override obj=new Override();
         obj.Poly();
         obj.Poly1();
         
@@ -26,7 +26,7 @@ class Overriding  //same function name, same class, diff parameter
     }
   
 }
-class Overload extends Overriding  //same function name, diff class, same parameter
+class Override extends Overriding  //same function name, diff class, same parameter
 {
     public void Poly()
     {
