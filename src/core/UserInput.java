@@ -3,7 +3,7 @@ package core;
 import java.util.Scanner;
 
 
-public class Temp 
+public class UserInput 
 {
     public static void main(String[] args) 
     {
