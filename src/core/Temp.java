@@ -6,9 +6,23 @@ public class Temp
 {
     public static void main(String[] args) 
     {
-        for(int i=0;i<128;i++)
-            System.out.println(i+" "+(char)i);
-            
+       BB obj=new BB();
+       obj.display();
     }
     
+}
+class AA
+{
+    public void show()
+    {
+        System.out.println("Inside parent class");
+    }
+    
+}
+class BB extends AA
+{
+    public void display()
+    {
+        System.out.println("Inside child class");
+    }
 }

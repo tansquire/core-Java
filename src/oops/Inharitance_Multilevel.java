@@ -34,7 +34,7 @@ class AddSub2 extends Add1
 {
 
     
-    public void sub() 
+     public void sub() 
     {
         z=x-y;
         
