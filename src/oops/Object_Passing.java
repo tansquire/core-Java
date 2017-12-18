@@ -32,9 +32,9 @@ class paper
 
 class printer
 {
-    public void print(paper p)
+    public void print(paper q)
     {
-        p.settext("get lost");
+        q.settext("get lost");
     }
     
     

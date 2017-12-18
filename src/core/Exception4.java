@@ -14,6 +14,7 @@ public class Exception4
         try
         {
             k=i+j;
+            
             if(k<10)
             {
                 throw new Exception();   //forcefull exception
